@@ -424,7 +424,7 @@ var _5c=_5b.media.regular.length;
 var _5d=_5b.media.thumbnails.length;
 var _5e=(_5c>_5d)?_5b.media.regular:_5b.media.thumbnails;
 _5b.usethisimgarr=_5e;
-    console.log(_5e);
+    console.log(_5b.media);
 if(_5e.length!=0){
 if(_5b.media.thumbnails.length!=0){
 _5b.smallimg=_5b.media.thumbnails[0].url;
