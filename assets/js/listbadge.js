@@ -316,7 +316,7 @@ this.currheight=document.documentElement.clientHeight;
 var _36=(_34.smallimg==undefined)?"":"<img src='"+_34.smallimg+"' />";
 var _37=(_35=="imgBadge")?"":"<div class='pipesThumbnail'>"+_36+"</div>";
 var _38=(_36==""||_35=="imgBadge")?"style='margin-left:0px;'":"style='margin-left:55px;'";
-var _39="<div class='pipesImgdescription'><div class='pipesHolder'>"+_37+"<div class='pipesText' "+_38+"><div class='pipesTitle'><a href='"+_34.link+"' target='_self'>"+_34.title+"</a></div><div class='pipesDescription'>"+_34.description+"</div><ul class='pipesSmallthumb'></ul></div></div></div>";
+var _39="<div class='pipesImgdescription'><div class='pipesHolder'>"+_37+"<div class='pipesText' "+_38+"><div class='pipesTitle'><a href='"+_34.link+"' target='_self'>"+_34.title+"</a></div><ul class='pipesSmallthumb'></ul></div></div></div>";
 return _39;
 },createDescThumbs:function(obj,w,_3c){
 var _3d=obj.getElementsByTagName("ul");
